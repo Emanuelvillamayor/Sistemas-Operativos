@@ -1,4 +1,4 @@
-                                        CLASE 7
+                                                     CLASE 7
 
 Mem test en los pendrive permitia ver la velocidad que tenia la memoria (cache) y las memorias ram , hay mucha diferencia
 entre estas memorias.
@@ -24,6 +24,8 @@ A medida que nos acercamos cada vez mas al microprocesador son mas caras debido 
 memoria cache mas sale el microprocesador.
 
 De la memoria ram para abajo sale la memoria virtual es decir utilizacion de disco rigido como memoria ram.
+
+
 
 
 ********************************************************************************
@@ -135,6 +137,13 @@ cUANTOS DISCO RIGIDOS NECESITO PARA UN DISCO DE 1000GB(EN EL SISTEMA)
 SON 4 DISCOS RIGIDOS DE 500 GB (FISICOS).
 
 
+
+Como ver la memoria que tenemos disponible en la consola.
+
+
+free -m -> nos muestra la memoria libre de la ram
+
+cat/prop/meminfo muestra lo disponible en la memoria ram.
 
 
 
