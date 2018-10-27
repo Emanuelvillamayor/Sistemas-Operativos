@@ -61,25 +61,25 @@
 
 
 
-8º Configuramos nuestro virtual host creando el archivo httpd-owncloud.conf, dentro del directorio /opt/lampp/etc/extra,
-   dentro tendra la siguiente informacion:
-    
+8º Configuramos nuestro virtual host creando el archivo httpd-owncloud.conf, dentro del directorio /opt/lampp/etc/extra.
+
   
-
-
-
- 
-
-9º Dar permiso de "escritura a /opt/lampp  Esto hará posible la ejecución de la instalación utilizando la interfaz gráfica web :
+ 9º Dar permiso de "escritura " a /opt/lampp  (lo hacemos de manera recursiva) Esto hará posible la ejecución de la instalación utilizando la interfaz gráfica web  :
 
 
  
-
-
+  sudo chmod 777 lamp/ -R
 
  
 
 10º Abrimos la web de instalación, desde el navegador acceder a http://localhost/owncloud 
 
 
-   
+ y nos registramos
+
+
+
+***************************************************************************************************
+Si apagamos la maquina para volver a correrla tenemos que ejecutar el comando /opt/lampp/lampp start
+Lo cual inicializa el xampp.
+***************************************************************************************************
