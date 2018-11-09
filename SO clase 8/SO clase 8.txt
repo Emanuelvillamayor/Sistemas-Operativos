@@ -103,7 +103,6 @@ LOS COMMIT SON LOS QUE PERMITEN HACER LOS OBJETIVOS O CAMBIOS IMPORTANTES EN VEZ
 **********************************************************************************************************
 -git config user.email -> nos muestra el email de github
 
-
 -creamos otra carpeta al mismo nivel llamada "githubotro"
 
 -vamos a intentar clonar los repositorios de nuestros amigos , para esto tenemos que pedirle la direccion
@@ -128,8 +127,6 @@ LOS COMMIT SON LOS QUE PERMITEN HACER LOS OBJETIVOS O CAMBIOS IMPORTANTES EN VEZ
  *.jpg 
 
 -luego cuando hagamos git status los archivos con esta extension no van a aparecder
-
-
 
 
 
@@ -182,14 +179,12 @@ puede hacer solo darle permiso sobre un brunch especifico , el dueño lo va a jun
 
 -git merge nuevaRama
 
-
 -git push origin master 
 
 -ahora mando el archvio al master que antes estaba en el branch , ahora esta en ambos , el link tambien tiene el master .
   si vuelvo a nuevaRama y cambio el archvio , el archivo del master sigue igual hasta que no hagamos el MERGE
 
 -el problema esta cuando el del master modifica algun archivo de adentro y lo guardamos como cambio desde la web
- 
 
 -git pull , actualiza la ultima version de nuestro repositorio.
 
