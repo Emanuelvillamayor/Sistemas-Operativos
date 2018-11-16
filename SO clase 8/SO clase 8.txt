@@ -103,7 +103,10 @@ LOS COMMIT SON LOS QUE PERMITEN HACER LOS OBJETIVOS O CAMBIOS IMPORTANTES EN VEZ
 **********************************************************************************************************
 -git config user.email -> nos muestra el email de github
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> bcc21c059b301021a0b8660667fb0501e89e2f22
 -creamos otra carpeta al mismo nivel llamada "githubotro"
 
 -vamos a intentar clonar los repositorios de nuestros amigos , para esto tenemos que pedirle la direccion
@@ -131,8 +134,11 @@ LOS COMMIT SON LOS QUE PERMITEN HACER LOS OBJETIVOS O CAMBIOS IMPORTANTES EN VEZ
 
 
 
+<<<<<<< HEAD
 
 
+=======
+>>>>>>> bcc21c059b301021a0b8660667fb0501e89e2f22
 git diff -> muestra  la diferencia entre working are y commit area , es decir muestra los que esta sin confirmar
              y lo que esta confirmado , solo nos muestra diferencia entre working area y stagin area
 
@@ -149,9 +155,13 @@ puede hacer solo darle permiso sobre un brunch especifico , el dueño lo va a jun
 
 -CREAMOS NUEVO BRUNCH:
 
+<<<<<<< HEAD
 -git branch nuevaRama -> crea rama 
  
 -git branch (solo eso se donde estoy parado).
+=======
+-git branch nuevaRama -> crea rama
+>>>>>>> bcc21c059b301021a0b8660667fb0501e89e2f22
 
 -git checkout nuevaRama -> esto me hace cambiar de rama 
 
@@ -184,20 +194,29 @@ puede hacer solo darle permiso sobre un brunch especifico , el dueño lo va a jun
 
 -git merge nuevaRama
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> bcc21c059b301021a0b8660667fb0501e89e2f22
 -git push origin master 
 
 -ahora mando el archvio al master que antes estaba en el branch , ahora esta en ambos , el link tambien tiene el master .
   si vuelvo a nuevaRama y cambio el archvio , el archivo del master sigue igual hasta que no hagamos el MERGE
 
 -el problema esta cuando el del master modifica algun archivo de adentro y lo guardamos como cambio desde la web
+<<<<<<< HEAD
  
+=======
+>>>>>>> bcc21c059b301021a0b8660667fb0501e89e2f22
 
 -git pull , actualiza la ultima version de nuestro repositorio.
 
 
+<<<<<<< HEAD
 -git Checkout vas saltando entre rama y rama y van apareciendo los distintos archivos
 
 
 
+=======
+>>>>>>> bcc21c059b301021a0b8660667fb0501e89e2f22
 

@@ -43,7 +43,7 @@ Subdirectorios Dinamicos(van cambiando constantemente) y Estaticos (bibliotecas)
    Ejemplo :En MEDIA , SE GUARDAN LOS PUNTOS DE MONTAJE ( ESDECIR LO QUE NOSOTROS CREAMOS).
 
    Ejemplo :Proc  tiene todo lo que pasa en el sistema y se actualiza constantemente, todos los procesos tiene
-   Ejemplo : tmp.
+   Ejemplo : tmp -> temporales
 
 
  Tres tipos de archivo:
