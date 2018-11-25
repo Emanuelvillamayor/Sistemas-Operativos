@@ -95,7 +95,7 @@ apt-get update
 
 apt-get check (solo chequea). -> lee la lista de paquete y dice "hecho" si esta todo bien.
 
-apt-get upgrade (actualizar , los paquetes antes de ejecutar el upgrade tenemos que ejecutar el "upgrade " y el "Check").
+apt-get upgrade (actualizar , los paquetes antes de ejecutar el upgrade tenemos que ejecutar el "update " y el "Check").
 
 TODO ESTO ERA SOLO DE PAQUETES.
 
